@@ -4,15 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Laravel Mix</title>
+    <title>Courses</title>
+    {{-- meta tag --}}
 </head>
 <body>
     <a href="/">Home</a>
     <a href="/courses">Courses</a>
     <hr>
-    <div id="root"></div>
-
-
-    <script src="{{ mix('js/home.js')}}"></script>
+    <div id="some"></div>
+    <script src="{{ mix('js/course.js') }}"></script>
 </body>
 </html>
