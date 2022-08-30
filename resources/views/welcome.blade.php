@@ -7,7 +7,8 @@
     <title>Laravel Mix</title>
 </head>
 <body>
-    
+    <a href="/courses">Courses</a>
+    <div id="root"></div>
 
 
     <script src="{{ mix('js/home.js')}}"></script>
